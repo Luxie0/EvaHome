@@ -1,0 +1,32 @@
+<!-- rv_siparis_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtUrunAdi"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:text="Ürün Adı" />
+
+    <TextView
+        android:id="@+id/txtUrunFiyati"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:text="Ürün Fiyatı" />
+
+    <TextView
+        android:id="@+id/txtAdet"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:text="Adet" />
+
+    <Button
+        android:id="@+id/onaylaButon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Siparişi Onayla" />
+
+</LinearLayout>
